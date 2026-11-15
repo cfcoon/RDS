@@ -12,8 +12,8 @@ older FM car radios only showed the PS field so they wanted a way to show artist
 specification (PS field is expected to be set once and not change) so might not be a good idea elsewhere. Check your local radio stations if they
 scroll PS. But usually PS is for the station ID. 
 
-You'll need a USB to serial (RS-232) adapter which you plug into the transmitter directly (no null model adapter needed). Find out what COM port
-is assigned to but the default is COM3. 
+You'll need a USB to serial (RS-232) adapter which you plug into the transmitter directly (no null modem adapter needed). Find out what COM port
+it is assigned to and change it in the code, but the default is COM3. 
 
 To run in real-time mode, set the transmitter RDS page to "UNSAVE" and select it, which will make it listen to the serial port. Launch this console app
 and it will start listening on port 21100 by default (see main() function for command line options). On RadioDJ choose the Metadata Export button
