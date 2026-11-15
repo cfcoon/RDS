@@ -7,6 +7,11 @@ You can set PI, PS, PTY and RT RBDS/RDS fields that will display on car FM radio
 be 64 characters will split into two 32 character timeshared transmissions because many car radios just clip it if it goes past the screen width.
 That and other options are shown at the top of the code file. 
 
+Setting the PS field to "%%%%" will scroll RT text (one word at a time) into the PS field. This is done by some stations in North America because
+older FM car radios only showed the PS field so they wanted a way to show artist and title information, but it violates the official RDS
+specification (PS field is expected to be set once and not change) so might not be a good idea elsewhere. Check your local radio stations if they
+scroll PS. But usually PS is for the station ID. 
+
 You'll need a USB to serial (RS-232) adapter which you plug into the transmitter directly (no null model adapter needed). Find out what COM port
 is assigned to but the default is COM3. 
 
