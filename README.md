@@ -1,4 +1,4 @@
-# GD-2015 and GD-2025 FM Transmitter RDS example
+# GD-2015 and GD-2025 FM Transmitter RDS Driver
 This Windows console app listens for real-time exported RDS data from RadioDJ or possibly other FM automation software and sets the RDS fields on the 
 China Broadcast GD-2015 series transmitter. You can also run it with default RDS settings on the command line to set static information and save it
 to automatically boot on transmitter power-up. 
