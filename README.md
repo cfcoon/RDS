@@ -31,3 +31,6 @@ the RDS page "UNSAVE" mode until it's displayed on your receiver properly, selec
 
 To compile with Visual Studio, make a new "Console app" hello world project then replace the main file with this one.
 
+A compiled .exe file is also included if you don't know how to compile. It's a standalone file you can run from your desktop or any location. 
+Obviously scan it with antivirus or Windows Defender before running (right-click, show more options, Scan with Windows Defender). It's just 74k
+because all this does is listen for incoming text from the automation software and push it out to the transmitter in its custom format. 
